@@ -33,3 +33,7 @@ const appleiPhone = new Smartphone(
 
 console.log("The samsungGalaxyPhone: ", samsungGalaxyPhone);
 console.log("The appleiPhone: ", appleiPhone);
+
+//for testing methods
+window.samsungGalaxyPhone = samsungGalaxyPhone;
+window.appleiPhone = appleiPhone;

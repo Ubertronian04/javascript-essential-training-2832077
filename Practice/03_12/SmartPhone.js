@@ -22,13 +22,13 @@ class Smartphone {
     this.waterproof = water;
   }
   currentStatus(newstatus) {
-    if ((newstatus = 1)) {
+    if (newstatus == 1) {
       this.status = "Power Off";
-    } else if ((newstatus = 2)) {
+    } else if (newstatus == 2) {
       this.status = "Power On";
-    } else if ((newstatus = 3)) {
+    } else if (newstatus == 3) {
       this.status = "Sleep";
-    } else if ((newstatus = 4)) {
+    } else if (newstatus == 4) {
       this.status = "Charging";
     } else {
       this.status = "Unconfirmed";
